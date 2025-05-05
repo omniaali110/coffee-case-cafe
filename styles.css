@@ -47,15 +47,22 @@ button:active{
     transform: scale(0.9);
     transition: all 0.3s ease-in-out;
 }
-/*dark mode button*/
+/* dark mode button
 .mode-icon{
-    stroke-width: 5;
+    stroke-width: 1;
+    stroke: var(--main-color);
+    width: 50px;
     cursor: pointer;
 }
 .mode-icon:hover{
-    fill: var(--main-color); 
+    fill: var(--main-color);
+    transform: scale(1.6); 
     transition: all 0.3s ease-in-out;
 }
+.mode-icon:active{
+    fill: var(--main-color);
+    transition: all 0.3s ease-in-out;
+} */
 
 
 /*global buttons end*/
